@@ -35,6 +35,7 @@
             android:orientation="vertical" >
 
             <LinearLayout
+                android:orientation="vertical"
                 android:id="@+id/spacer"
                 android:layout_width="fill_parent"
                 android:layout_height="20dp" >
