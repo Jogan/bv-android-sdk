@@ -114,9 +114,9 @@ public class SubmissionMediaParams extends BazaarParams {
 	 * 
 	 * @param file
 	 *            the file to read the data from
-	 * @throws FileNotFoundException
+	 * @throws java.io.FileNotFoundException
 	 *             thrown if the file does not exist
-	 * @throws IOException
+	 * @throws java.io.IOException
 	 *             thrown if the file cannot be read
 	 */
 	public void setPhoto(File file) throws FileNotFoundException, IOException {
@@ -176,9 +176,9 @@ public class SubmissionMediaParams extends BazaarParams {
 	 * 
 	 * @param file
 	 *            the file to read the data from
-	 * @throws FileNotFoundException
+	 * @throws java.io.FileNotFoundException
 	 *             thrown if the file does not exist
-	 * @throws IOException
+	 * @throws java.io.IOException
 	 *             thrown if the file cannot be read
 	 */
 	public void setVideo(File file) throws FileNotFoundException, IOException {
@@ -207,9 +207,9 @@ public class SubmissionMediaParams extends BazaarParams {
 	 *            the file to read
 	 * @param mediaType
 	 *            the type of media being read
-	 * @throws FileNotFoundException
+	 * @throws java.io.FileNotFoundException
 	 *             if the file does not exist
-	 * @throws IOException
+	 * @throws java.io.IOException
 	 *             if the file cannot be read
 	 */
 	private void setMedia(File file, Media.MediaType mediaType)
